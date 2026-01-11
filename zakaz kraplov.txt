@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 
 # --- НАСТРОЙКИ ---
 API_TOKEN = '8381301732:AAEesMo1ziDhIxr5vOwgyoMefDdH38nZ5jY'
-ADMIN_IDS = 5827110408 8050595279
+ADMIN_IDS = 8066060450
 SHOP_LINK = 'https://t.me/freezebotnet'
 INST_LINK = 'https://t.me/instru_frezee'
 
@@ -252,4 +252,5 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         pass
